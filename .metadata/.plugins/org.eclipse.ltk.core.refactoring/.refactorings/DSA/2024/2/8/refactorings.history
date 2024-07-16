@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Convert local variable &apos;array.test6.main(...).var&apos; in &apos;array.test6.main(...)&apos; to field&#x0D;&#x0A;- Original project: &apos;DSA&apos;&#x0D;&#x0A;- Original element: &apos;array.test6.main(...).var&apos;&#x0D;&#x0A;- Field name: &apos;var&apos;&#x0D;&#x0A;- Initialize field in method&#x0D;&#x0A;- Declared visibility: &apos;private&apos;&#x0D;&#x0A;- Declare field &apos;static&apos;" description="Convert local variable &apos;var&apos; to field" final="false" flags="2" id="org.eclipse.jdt.ui.promote.temp" initialize="1" input="/src&lt;array{test6.java" name="var" selection="250 28" stamp="1708418510346" static="true" version="1.0" visibility="2"/>
+</session>

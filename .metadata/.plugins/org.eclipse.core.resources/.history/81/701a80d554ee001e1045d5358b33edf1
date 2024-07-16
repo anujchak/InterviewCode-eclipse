@@ -1,0 +1,35 @@
+package array;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.Date;
+import java.util.List;
+import java.util.Map;
+import java.util.function.Function;
+import java.util.stream.Collectors;
+
+public class test6{
+
+	
+	public static void main(String[] args) {
+	
+	List<Integer>l= new ArrayList<Integer>();
+	l.add(1);
+	l.add(2);
+	l.add(3);
+	l.add(4);
+	System.out.println(l.stream().mapToInt(e->e).sum());
+	String s = "hello";
+	String s1="";
+	List<String>l1=Arrays.asList(s.split(""));
+	for(String a: l1)
+	{
+		s1=s1+a;
+		
+	}
+	System.out.println(s1);
+	
+}
+}

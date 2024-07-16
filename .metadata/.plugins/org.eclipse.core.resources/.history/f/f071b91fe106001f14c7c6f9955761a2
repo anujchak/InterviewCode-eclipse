@@ -1,0 +1,43 @@
+package array;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.function.Function;
+import java.util.stream.Collectors;
+
+public class test6{
+
+    public static void main(String[] args)
+    {	// "" @ # () {} <>
+    	//Given a list of words, group them by their length and count the occurrences of each length.
+    	//System.out.println("hi");
+    	//List<String>l=List.of("anuj","kk","anuj","kkkk");
+    	//System.out.println(l.stream().collect(Collectors.groupingBy(String::length,Collectors.counting())));
+    	int n=5;
+    	for(int i=1;i<=n;i++)
+    	{	int k=n;
+    	     String s="";
+    		for(int j=1;j<=n;j++)
+    		{	int f=1;
+    			if(k>i)
+    			{
+    				s=s+" ";
+    				k--;
+    			}
+    			else {
+    				s=s+""+f;
+    				f++;
+    			}
+    		}
+    		System.out.println(s);
+    	}
+    	
+    }
+	
+}
